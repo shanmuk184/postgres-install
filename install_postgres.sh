@@ -5,7 +5,6 @@ sudo apt-get install postgresql-12
 sudo -i -u postgres psql -c "ALTER USER postgres with password 'new_password';"
 sudo -i -u postgres psql -c "CREATE USER Ubuntu with password 'password';"
 sudo -i -u postgres psql -c "CREATE DATABASE Test;"
-sudo -i -u postgres psql -c "GRANT ALL PRIVILIGES ON Test TO Ubuntu;"
 sudo systemctl stop postgresql
 sudo systemctl start postgresql
 ~
