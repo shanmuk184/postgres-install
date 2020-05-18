@@ -7,4 +7,3 @@ sudo -i -u postgres psql -c "CREATE USER Ubuntu with password 'password';"
 sudo -i -u postgres psql -c "CREATE DATABASE Test;"
 sudo systemctl stop postgresql
 sudo systemctl start postgresql
-~
